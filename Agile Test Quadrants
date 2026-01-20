@@ -1,0 +1,73 @@
+The Agile Test Quadrant is a model that categorizes tests based on:
+
+Business-facing vs Technology-facing
+
+Supporting the team vs Critiquing the product
+
+It helps Agile teams decide what type of tests to perform and when.
+
+Agile Test Quadrant Overview
+Quadrant	                          Focus	                                         Type                                     Examples
+Q1	                           Technology-facing	                          Supporting the team	                  Unit tests,component tests
+Q2	                           Business-facing	                            Supporting the team	                  Functional testing,acceptance tests,BDD
+Q3	                           Business-facing	                            Critiquing the product	              Exploratory testing,usability testing
+Q4	                           Technology-facing	                          Critiquing the product	              Performance,security,load testing
+Experience-Based Testing & Agile Test Quadrant
+What Is Experience-Based Testing?
+
+Experience-Based Testing relies on:
+
+Tester’s domain knowledge
+
+Intuition
+
+Past defect experience
+
+Examples:
+
+Exploratory Testing
+
+Error Guessing
+
+Checklist-based Testing
+
+Which Quadrant Is Used for Experience-Based Testing?
+
+Quadrant 3 (Q3)
+
+Why Quadrant 3?
+1. Focus on Critiquing the Product
+
+Q3 is about evaluating the product from a user perspective.
+
+Experience-based testing finds issues that scripted tests may miss.
+
+2. Business-Facing Tests
+
+Experience-based testing checks:
+
+Usability
+
+User workflows
+
+Real-world scenarios
+
+These align with business expectations.
+
+3. Human-Centered Testing
+
+Requires creativity,intuition and tester expertise.
+
+Cannot be fully automated.
+
+Examples of Q3 Experience-Based Testing:
+
+Exploratory testing
+
+Usability testing
+
+User journey testing
+
+UAT support
+
+Edge-case discovery based on experience
