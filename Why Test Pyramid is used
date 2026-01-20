@@ -1,0 +1,72 @@
+The Test Pyramid is a testing strategy model.It represents different levels of testing arranged in a pyramid shape to show how many tests should be written at each level.
+Layers of the Test Pyramid:
+Unit Tests (Base – largest)
+Service / Integration Tests (Middle)
+UI / End-to-End Tests (Top – smallest)
+
+Importance of the Test Pyramid
+1.Ensures Faster Feedback
+
+Unit tests execute very quickly.
+
+Most defects are detected early in the development cycle.
+
+Faster feedback helps developers fix issues immediately.
+
+Reduced cost of defect fixing
+
+2.Improves Test Stability and Reliability
+
+Lower-level tests (unit and service tests) are less flaky.
+
+UI tests are more prone to failure due to:
+
+UI changes
+
+Network issues
+
+Environment instability
+
+3.Reduces Maintenance Cost
+
+UI tests are expensive to maintain.
+
+Small UI changes can break many tests.
+
+Unit tests are easy to update and maintain.
+
+4. Promotes Better Code Design
+
+Writing unit tests encourages:
+
+Loose coupling
+
+High cohesion
+
+Modular design
+
+5. Optimizes Test Execution Time
+
+Thousands of unit tests can run in minutes.
+
+A small number of UI tests are run only for critical user flows.
+
+6. Provides Balanced Test Coverage
+
+Each layer serves a purpose:
+
+Unit tests -logic correctness
+
+Integration tests - interaction between components
+
+UI tests - real user behavior
+
+What Happens If Test Pyramid Is Not Followed?
+
+Too many UI tests - slow execution and flaky failures
+
+Late defect detection
+
+High maintenance cost
+
+Delayed releases
